@@ -36,6 +36,28 @@
 # print(x[1:1])
 # print(x[1:4]) # it will print the string from index 1 to 4
 # print(x[1:]) # it will print the string from index 1 to end
-x=int(input("Enter a number: "))
-for i in range (1,11):
-    print(x,"x",i,"=",x*i)
+
+# x=int(input("Enter a number: "))
+# for i in range (1,3):
+#     print(x,"x",i,"=",x*i)
+
+# # concatenation 
+# first_name = "John"
+# last_name = "Doe"
+# full_name = first_name + " " + last_name
+# print(full_name)
+
+# string modification 
+message = "Hello, World!"
+print(message.upper())  # Convert to uppercase
+print(message.lower())  # Convert to lowercase
+
+print(message.title())  # Convert to title case
+
+print(message.replace("World", "Python"))  # Replace substring
+print(message)
+
+
+price = 125.687
+
+print(f"Price: {price:.2f}")
